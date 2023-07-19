@@ -22,6 +22,20 @@ class AppTheme {
         backgroundColor: primaryColor,
       ),
     ),
+    inputDecorationTheme: const InputDecorationTheme(
+      floatingLabelStyle: TextStyle(color: primaryColor),
+      enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: primaryColor),
+          borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(10), topRight: Radius.circular(10))),
+      focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: primaryColor),
+          borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(10), topRight: Radius.circular(10))),
+      border: OutlineInputBorder(
+          borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(10), topRight: Radius.circular(10))),
+    ),
   );
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(

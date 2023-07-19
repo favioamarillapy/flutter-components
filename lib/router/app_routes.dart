@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/models/models.dart';
-import 'package:flutter_components/screens/animated_screen.dart';
 import 'package:flutter_components/screens/screens.dart';
 
 class AppRoutes {
@@ -34,6 +33,12 @@ class AppRoutes {
       "/card-screen",
       Icons.credit_card,
       const CardScreen(),
+    ),
+    MenuOption(
+      "Inputs",
+      "/inputs-screen",
+      Icons.edit,
+      const InputScreen(),
     ),
     MenuOption(
       "Listview",
