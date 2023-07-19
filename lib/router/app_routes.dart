@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/models/models.dart';
+import 'package:flutter_components/screens/animated_screen.dart';
 import 'package:flutter_components/screens/screens.dart';
 
 class AppRoutes {
@@ -9,6 +10,12 @@ class AppRoutes {
       "/",
       Icons.home,
       const HomeScreen(),
+    ),
+    MenuOption(
+      "Animated container",
+      "/animated-screen",
+      Icons.play_circle,
+      const AnimatedScreen(),
     ),
     MenuOption(
       "Alert",
