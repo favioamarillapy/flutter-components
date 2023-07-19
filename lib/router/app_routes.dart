@@ -4,11 +4,36 @@ import 'package:flutter_components/screens/screens.dart';
 
 class AppRoutes {
   static final menuOptions = <MenuOption>[
-    MenuOption("Home", "/", Icons.home, const HomeScreen()),
-    MenuOption("Alert", "/alert-screen", Icons.add_alert, const AlertScreen()),
-    MenuOption("Card", "/card-screen", Icons.credit_card, const CardScreen()),
     MenuOption(
-        "Listview", "/listview-screen", Icons.list, const ListViewScreen()),
+      "Home",
+      "/",
+      Icons.home,
+      const HomeScreen(),
+    ),
+    MenuOption(
+      "Alert",
+      "/alert-screen",
+      Icons.add_alert,
+      const AlertScreen(),
+    ),
+    MenuOption(
+      "Avatar",
+      "/avatar-screen",
+      Icons.supervised_user_circle,
+      const AvatarScreen(),
+    ),
+    MenuOption(
+      "Card",
+      "/card-screen",
+      Icons.credit_card,
+      const CardScreen(),
+    ),
+    MenuOption(
+      "Listview",
+      "/listview-screen",
+      Icons.list,
+      const ListViewScreen(),
+    ),
   ];
 
   static const initialRoute = "/";
