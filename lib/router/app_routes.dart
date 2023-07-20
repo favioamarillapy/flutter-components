@@ -52,6 +52,12 @@ class AppRoutes {
       Icons.slow_motion_video,
       const SliderScreen(),
     ),
+    MenuOption(
+      "InfiniteScrol & Pull to refresh",
+      "/infinite-scroll-screen",
+      Icons.build_circle_outlined,
+      const InfinitescrollScreen(),
+    ),
   ];
 
   static const initialRoute = "/";
