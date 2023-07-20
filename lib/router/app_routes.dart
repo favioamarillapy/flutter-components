@@ -46,6 +46,12 @@ class AppRoutes {
       Icons.list,
       const ListViewScreen(),
     ),
+    MenuOption(
+      "Slider",
+      "/slider-screen",
+      Icons.slow_motion_video,
+      const SliderScreen(),
+    ),
   ];
 
   static const initialRoute = "/";
